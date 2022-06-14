@@ -1,0 +1,35 @@
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% auto;
+}
+.cardsLink .cardsImage{
+    width: 380px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.title{
+    text-align: center;
+    font-weight: 500;
+}
+.contentArea{
+    text-align: center;
+    padding: 1rem 10rem 2.5rem;
+}
+.image{
+    width: 85%;
+}
+.texts{
+    max-width: 59ch;
+    margin: auto;
+    font-size: 1.25rem;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+.pagination{
+    font-size: 25px;
+    color: rgb(47, 172, 249);
+    margin: 10px;
+}
